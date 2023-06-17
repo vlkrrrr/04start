@@ -1,5 +1,5 @@
 name: onpush
-on: push
+on: [push, workflow_dispatch]
 jobs:
   myjob:
     runs-on: ubuntu-latest
